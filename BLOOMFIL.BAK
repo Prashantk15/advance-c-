@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+
+struct node
+     {
+     char text[20];
+     int  code;
+     };
+
+main()
+{
+int i;
+struct node A[5];
+for(i=0;i>=4;i++)
+{
+printf("Enter text");
+scanf("%s",&A[i].text);
+printf("%s",A[i].text);
+}
+
+
+
+
+getch();
+}
